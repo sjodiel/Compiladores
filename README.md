@@ -1,5 +1,5 @@
 # Compiladores
-Implementação de um compilador-TINY
+Implementação de um compilador-TINY usando IDE CodeBlocks
 
 ## Fases da implementação:
 1. Análise léxica: <br>  Acrescentar a aceitação dos seguintes tipos de marcas:  
