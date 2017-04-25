@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1492970022 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\analyze.c
+	"globals.h"
+	"symtab.h"
+	"analyze.h"
+
+1492998032 c:\users\sjodiel\documents\codeblocks\tinycompiler\globals.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1492970940 c:\users\sjodiel\documents\codeblocks\tinycompiler\symtab.h
+
+1492970096 c:\users\sjodiel\documents\codeblocks\tinycompiler\analyze.h
+
+1492971922 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\cgen.c
+	"globals.h"
+	"symtab.h"
+	"code.h"
+	"cgen.h"
+
+1492970349 c:\users\sjodiel\documents\codeblocks\tinycompiler\code.h
+
+1492970180 c:\users\sjodiel\documents\codeblocks\tinycompiler\cgen.h
+
+1492970340 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\code.c
+	"globals.h"
+	"code.h"
+
+1493144198 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\main.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+	"parse.h"
+	"analyze.h"
+	"cgen.h"
+
+1492971131 c:\users\sjodiel\documents\codeblocks\tinycompiler\util.h
+
+1492970796 c:\users\sjodiel\documents\codeblocks\tinycompiler\scan.h
+
+1492970571 c:\users\sjodiel\documents\codeblocks\tinycompiler\parse.h
+
+1492998762 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\parse.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+	"parse.h"
+
+1493152351 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\scan.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+
+1492970924 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\symtab.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"symtab.h"
+
+1492987337 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\util.c
+	"globals.h"
+	"util.h"
+
+1493003945 source:c:\users\sjodiel\documents\codeblocks\tinycompiler\tm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
