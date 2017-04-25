@@ -69,3 +69,67 @@
 	<string.h>
 	<ctype.h>
 
+1493162154 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\analyze.c
+	"globals.h"
+	"symtab.h"
+	"analyze.h"
+
+1493162155 c:\users\sjodiel\documents\github\compiladores\tinycompiler\globals.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1493162155 c:\users\sjodiel\documents\github\compiladores\tinycompiler\symtab.h
+
+1493162154 c:\users\sjodiel\documents\github\compiladores\tinycompiler\analyze.h
+
+1493162154 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\cgen.c
+	"globals.h"
+	"symtab.h"
+	"code.h"
+	"cgen.h"
+
+1493162155 c:\users\sjodiel\documents\github\compiladores\tinycompiler\code.h
+
+1493162154 c:\users\sjodiel\documents\github\compiladores\tinycompiler\cgen.h
+
+1493162155 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\code.c
+	"globals.h"
+	"code.h"
+
+1493162155 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\main.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+	"parse.h"
+	"analyze.h"
+	"cgen.h"
+
+1493162156 c:\users\sjodiel\documents\github\compiladores\tinycompiler\util.h
+
+1493162155 c:\users\sjodiel\documents\github\compiladores\tinycompiler\scan.h
+
+1493162155 c:\users\sjodiel\documents\github\compiladores\tinycompiler\parse.h
+
+1493162155 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\parse.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+	"parse.h"
+
+1493162155 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\scan.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+
+1493162155 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\symtab.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"symtab.h"
+
+1493162156 source:c:\users\sjodiel\documents\github\compiladores\tinycompiler\util.c
+	"globals.h"
+	"util.h"
+
