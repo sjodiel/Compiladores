@@ -94,7 +94,7 @@ TokenType getToken(void)
            state = INNUM;
          else if (isalpha(c))
            state = INID;
-         else if (c=='_')
+         else if (c=='_') //Adicionado a condição para novo estado
             state = INIDAUX;
          else if (c == ':')
            state = INASSIGN;
@@ -172,6 +172,8 @@ TokenType getToken(void)
            currentToken = NUM;
          }
          break;
+        /* Modificacao no formato dos identificadores : l( l + d + _)* + _ (l + d)^+( l + d + _)*
+         E foi adicionado o novo case do estado INIDAUX */
         case INIDAUX:
          if(isalnum(c))
            state = INID;
@@ -182,9 +184,8 @@ TokenType getToken(void)
            state = DONE;
            currentToken = ERROR;
          }
+         break;
         case INID:
-        // if (!isalnum(c) && c!='_') /* Modificacao no formato dos identificadores
-           /* l( l + d + _)* + _ (l + d)^+( l + d + _)* */
         if (!(isalnum(c) || c == '_'))
          { /* backup in the input */
 
@@ -192,8 +193,6 @@ TokenType getToken(void)
            save = FALSE;
            state = DONE;
            currentToken = ID;
-         }else if(c== '_'){
-
          }
          break;
        case DONE:
