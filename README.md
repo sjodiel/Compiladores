@@ -6,5 +6,5 @@ Implementação de um compilador-TINY usando IDE CodeBlocks
   1.1. Palavras reservadas: **while** **endwhile**  
   2.1. Identificadores no formato: l ( l + d + _) * + _ (l + d) + ( l + d + _) *
 2. Análise sintática :
-   **<declaração> → <while-decl> | <outra>** <br>
-   **<while-decl> → while (<exp_lógica>) <decl-sequência> endwhile**
+   **<declaração>** → **<while-decl>** | **<outra>** <br>
+   **<while-decl>** → **while** **(<exp_lógica>)** **<decl-sequência>** **endwhile**
