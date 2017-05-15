@@ -133,3 +133,67 @@
 	"globals.h"
 	"util.h"
 
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/analyze.c
+	"globals.h"
+	"symtab.h"
+	"analyze.h"
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/globals.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/symtab.h
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/analyze.h
+
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/cgen.c
+	"globals.h"
+	"symtab.h"
+	"code.h"
+	"cgen.h"
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/code.h
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/cgen.h
+
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/code.c
+	"globals.h"
+	"code.h"
+
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/main.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+	"parse.h"
+	"analyze.h"
+	"cgen.h"
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/util.h
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/scan.h
+
+1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/parse.h
+
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/parse.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+	"parse.h"
+
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/scan.c
+	"globals.h"
+	"util.h"
+	"scan.h"
+
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/symtab.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"symtab.h"
+
+1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/util.c
+	"globals.h"
+	"util.h"
+
