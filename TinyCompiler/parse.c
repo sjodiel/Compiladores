@@ -100,10 +100,12 @@ TreeNode * repeat_stmt(void)
   return t;
 }
 
-TreeNode * while_stmt(void) // NAO SEI se ESTAH CERTO while <exp> endwhile
+TreeNode * while_stmt(void) // add estrutura while
 { TreeNode * t = newStmtNode(WhileK);
   match(WHILE);
+  match(LPAREN);
   if (t!=NULL) t->child[0] = exp();
+  match(RPAREN);
   if (t!=NULL) t->child[1] = stmt_sequence();
   match(ENDWHILE);
   return t;
