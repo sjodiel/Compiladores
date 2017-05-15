@@ -139,6 +139,9 @@ void printTree( TreeNode * tree )
         case RepeatK:
           fprintf(listing,"Repeat\n");
           break;
+        case WhileK: // Add print While na tree
+          fprintf(listing,"While\n");
+          break;
         case AssignK:
           fprintf(listing,"Assign to: %s\n",tree->attr.name);
           break;
