@@ -12,7 +12,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="SAMPLE" />
+				<Option parameters="SAMPLE.tny" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -33,41 +33,41 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ANALYZE.C">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="ANALYZE.H" />
-		<Unit filename="CGEN.C">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="CGEN.H" />
-		<Unit filename="CODE.C">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="CODE.H" />
-		<Unit filename="GLOBALS.H" />
-		<Unit filename="MAIN.C">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="MAKEFILE" />
-		<Unit filename="PARSE.C">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="PARSE.H" />
 		<Unit filename="README.DOS" />
 		<Unit filename="SAMPLE.tny" />
-		<Unit filename="SCAN.C">
+		<Unit filename="analyze.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="SCAN.H" />
-		<Unit filename="SYMTAB.C">
+		<Unit filename="analyze.h" />
+		<Unit filename="cgen.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="SYMTAB.H" />
-		<Unit filename="UTIL.C">
+		<Unit filename="cgen.h" />
+		<Unit filename="code.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="UTIL.H" />
+		<Unit filename="code.h" />
+		<Unit filename="globals.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parse.h" />
+		<Unit filename="scan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scan.h" />
+		<Unit filename="symtab.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="symtab.h" />
+		<Unit filename="util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -148,7 +148,7 @@
 
 1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/analyze.h
 
-1494779340 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/cgen.c
+1498573029 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/cgen.c
 	"globals.h"
 	"symtab.h"
 	"code.h"
@@ -162,7 +162,7 @@
 	"globals.h"
 	"code.h"
 
-1494808445 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/main.c
+1495560128 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/main.c
 	"globals.h"
 	"util.h"
 	"scan.h"
@@ -176,7 +176,7 @@
 
 1494779340 /home/sjodiel/GitHub/Compiladores/TinyCompiler/parse.h
 
-1494808863 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/parse.c
+1495560535 source:/home/sjodiel/GitHub/Compiladores/TinyCompiler/parse.c
 	"globals.h"
 	"util.h"
 	"scan.h"
