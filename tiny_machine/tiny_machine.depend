@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1496057619 source:/home/sjodiel/Documentos/CodeBlocks/tiny_machine/tiny_machine.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1496057619 source:/home/sjodiel/GitHub/Compiladores/tiny_machine/tiny_machine.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
